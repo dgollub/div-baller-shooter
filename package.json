@@ -1,0 +1,30 @@
+{
+  "name": "div-baller-shooter",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "1.10.3"
+  },
+  "description": "Two divs, one static in place, the other moving from left to  right. Inside each div is a canvas. I click anywhere in the canvas, it creates a circle. I click outside the circle, it fires bullets.  I click on the circle again, the circle is removed.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel -p 8000 index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgollub/div-baller-shooter.git"
+  },
+  "keywords": [
+    "silly",
+    "div",
+    "baller",
+    "shooter",
+    "thingy"
+  ],
+  "author": "Daniel Kurashige-Gollub <daniel@kurashige-gollub.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgollub/div-baller-shooter/issues"
+  },
+  "homepage": "https://github.com/dgollub/div-baller-shooter#readme"
+}

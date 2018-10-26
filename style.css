@@ -1,0 +1,29 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+canvas {
+  background-color: rgba(235, 175, 145, 0.123);
+  width: 100%;
+}
+
+.field {
+  border: 1px solid rgba(192, 91, 24, 0.89);
+  display: flex;
+  margin: 4px;
+  position: relative;
+  width: 75%;
+}
+
+.animate {
+  animation-name: animate-movement;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate-movement {
+  from { left: 0; }
+  to { left: 25%; }
+}
